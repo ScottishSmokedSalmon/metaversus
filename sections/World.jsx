@@ -35,8 +35,11 @@ const World = () => (
         <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <img src="people-01.png" alt="people" className="w-full h-full" />
         </div>
-        <div className="absolute top-10 right-[20%] w-[200px] h-[150px] p-[6px] bg-[#5D6680]">
+        <div className="absolute top-10 right-[20%] w-[210px] h-[160px] p-[6px] bg-[#5D6680]">
           <img src="TR img.png" alt="planet" className="w-full h-full" />
+        </div>
+        <div className="absolute bottom-[35%] left-[20%] w-[210px] h-[160px] p-[6px] bg-[#5D6680]">
+          <img src="TR img 2.png" alt="planet" className="w-full h-full" />
         </div>
         <div className="absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <img src="/people-02.png" alt="people" className="w-full h-full" />
