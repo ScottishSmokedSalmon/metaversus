@@ -37,10 +37,13 @@ const World = () => (
         </div>
         <div className="absolute top-10 right-[20%] w-[220px] h-[170px] rounded-3xl p-[6px] bg-[#5D6680]">
           <img src="TR img.png" alt="planet" className="w-full h-full rounded-3xl" />
-          <img src="TR Glow.png" className=" absolute top-0 right-[1%] w-[500px] h-[200px] p-[6px]" />
+          <img src="TR Glow.png" className="blur-lg absolute top-0 right-[1%] w-180 h-200 p-[0px]" />
+          <p className="absolute text-2xl font-sans weight-700 text-white bottom-[16%] left-[15%] ">Hawkins Labs</p>
         </div>
         <div className="absolute bottom-[35%] left-[20%] w-[220px] h-[170px] p-[6px] rounded-3xl bg-[#5D6680]">
           <img src="TR img 2.png" alt="planet" className="w-full h-full rounded-3xl" />
+          <img src="TR2 Glow.png" className="blur-sm absolute bottom-[15%] left-[20%] w-180 h-200 p-[6px]" />
+          <p className="absolute text-2xl font-sans weight-700 text-white bottom-[16%] left-[8%] ">The Upside Down</p>
         </div>
         <div className="absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <img src="/people-02.png" alt="people" className="w-full h-full" />
