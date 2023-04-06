@@ -34,6 +34,7 @@ const World = () => (
 
         <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <img src="people-01.png" alt="people" className="w-full h-full" />
+          <img src="gradient-people-01.png" className="scale-150 blur-lg absolute top-0 right-[1%] w-200 h-200 p-[0px]" />
         </div>
         <div className="absolute top-10 right-[20%] w-[220px] h-[170px] rounded-3xl p-[6px] bg-[#5D6680]">
           <img src="TR img.png" alt="planet" className="w-full h-full rounded-3xl" />
