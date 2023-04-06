@@ -35,16 +35,16 @@ const World = () => (
         <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <img src="people-01.png" alt="people" className="w-full h-full" />
         </div>
-        <div className="absolute top-10 right-[20%] w-[210px] h-[160px] p-[6px] bg-[#5D6680]">
-          <img src="TR img.png" alt="planet" className="w-full h-full" />
+        <div className="absolute top-10 right-[20%] w-[220px] h-[170px] rounded-full p-[6px]">
+          <img src="TR img.png" alt="planet" className="w-full h-full rounded-3xl" />
+          <img src="TR Glow.png" className=" absolute top-0 right-[1%] w-[500px] h-[200px] p-[6px]" />
         </div>
-        <div className="absolute bottom-[35%] left-[20%] w-[210px] h-[160px] p-[6px] bg-[#5D6680]">
+        <div className="absolute bottom-[35%] left-[20%] w-[220px] h-[170px] p-[6px] bg-[#5D6680]">
           <img src="TR img 2.png" alt="planet" className="w-full h-full" />
         </div>
         <div className="absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <img src="/people-02.png" alt="people" className="w-full h-full" />
         </div>
-
         <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <img src="people-03.png" alt="people" className="w-full h-full" />
         </div>
