@@ -39,18 +39,25 @@ const World = () => (
         <div className="absolute top-10 right-[20%] w-[220px] h-[170px] rounded-3xl p-[6px] bg-[#5D6680]">
           <img src="TR img.png" alt="planet" className="w-full h-full rounded-3xl" />
           <img src="TR Glow.png" className="blur-xl scale-150 absolute bottom-[0%] left-[1%] w-200 h-200" />
-          <p className="absolute text-2xl font-sans weight-700 text-white bottom-[16%] left-[15%] ">Hawkins Labs</p>
+          <p className="absolute text-xl font-sans font-semibold text-white bottom-[16%] left-[15%] ">Hawkins Labs</p>
+          <p className="absolute text-sm font-sans font-bold text-white top-[50%] left-[30%]">+ 264 has joined</p>
+          { /* <img src="imgsm1.png" alt="p1" className="w-10 h-10 bottom-[30%] left-[30%] rounded-full" />
+          <img src="imgsm2.png" alt="p2" className="w-10 h-10 top-[50%] left-[30%] rounded-full" />
+          <img src="imgsm3.png" alt="p3" className="w-10 h-10 top-[50%] left-[30%] rounded-full" /> */ }
         </div>
         <div className="absolute bottom-[35%] left-[20%] w-[220px] h-[170px] p-[6px] rounded-3xl bg-[#5D6680]">
           <img src="TR img 2.png" alt="planet" className="w-full h-full rounded-3xl" />
           <img src="TR2 Glow.png" className="blur-xl scale-150 absolute bottom-[0.5%] left-[1%] w-200 h-200 p-[0px]" />
-          <p className="absolute text-2xl font-sans weight-700 text-white bottom-[16%] left-[8%] ">The Upside Down</p>
+          <p className="absolute text-xl font-sans font-semibold text-white bottom-[16%] left-[8%] ">The Upside Down</p>
+          <p className="absolute text-sm font-sans font-bold text-white top-[50%] left-[30%] ">+ 264 has joined</p>
         </div>
         <div className="absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <img src="/people-02.png" alt="people" className="w-full h-full" />
+          <img src="Na kid glow.png" className="scale-150 blur-lg absolute top-0 right-[1%] w-200 h-200 p-[0px]" />
         </div>
         <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <img src="people-03.png" alt="people" className="w-full h-full" />
+          <img src="afro kid glow.png" className="scale-150 blur-lg absolute top-0 right-[1%] w-200 h-200 p-[0px]" />
         </div>
       </motion.div>
     </motion.div>
